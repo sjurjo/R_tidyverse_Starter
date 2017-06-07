@@ -48,11 +48,11 @@ ggplot(data=gapminder,
 
 ggplot(data=gapminder,
        mapping = aes(x= log(gdpPercap), y= lifeExp, color=continent))+
-  geom_jitter(alpha=0.1)+ #transparent 
+  geom_jitter(alpha=0.1)+ #transparent alpha
   geom_smooth(method="lm")
 
 #jitter are spreading the points slighty
-#change in a layer put it in the belonging parenthesis
+#change in a layer, put it in the belonging parenthesis
 
 ggplot(data=gapminder,
        mapping = aes(x= log(gdpPercap), y= lifeExp))+

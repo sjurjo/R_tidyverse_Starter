@@ -1,13 +1,17 @@
+##ctrl+shift+m <- pipe sign
+##markdown<-crtl+shift+i <- r skript
+
 download.file(url = "http://docs.google.com/spreadsheet/pub?key=phAwcNAVuyj0NpF2PTov2Cw&output=xlsx", 
               
               destfile = "Data/indicator gapminder infant_mortality.xlsx")
 
 
-
-
 download.file(url = "http://docs.google.com/spreadsheet/pub?key=phAwcNAVuyj0NpF2PTov2Cw&output=xlsx", 
               
               destfile = "Data/indicator undata total_fertility.xlsx")
+
+
+
 
 
 library("readxl")
@@ -30,5 +34,3 @@ fert<- raw_fert %>%
   
   
 fert
-
-?as.integer
